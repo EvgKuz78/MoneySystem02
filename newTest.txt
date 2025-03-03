@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:PbResponseExportCharges xmlns="urn:prbank-ru:abonent:error.v1.0" xmlns:ns2="urn:prbank-ru:abonent:gmp.v2.6" xmlns:ns3="http://roskazna.ru/gisgmp/xsd/Charge/2.6.0" xmlns:ns4="http://roskazna.ru/gisgmp/xsd/Common/2.6.0" xmlns:ns5="http://roskazna.ru/gisgmp/xsd/Organization/2.6.0" xmlns:ns6="urn://roskazna.ru/gisgmp/xsd/services/export-charges/2.6.0" xmlns:ns7="http://roskazna.ru/gisgmp/xsd/Payment/2.6.0" xmlns:ns8="urn://roskazna.ru/gisgmp/xsd/services/import-certificates/2.6.0" xmlns:ns9="http://roskazna.ru/gisgmp/xsd/Package/2.6.0" xmlns:ns10="http://roskazna.ru/gisgmp/xsd/Refund/2.6.0" xmlns:ns11="http://roskazna.ru/gisgmp/xsd/Income/2.6.0" xmlns:ns12="http://roskazna.ru/gisgmp/xsd/Clarification/2.6.0" xmlns:ns13="http://roskazna.ru/gisgmp/xsd/Ruling/2.6.0" xmlns:ns14="http://roskazna.ru/gisgmp/xsd/SearchConditions/2.6.0" xmlns:ns15="urn://roskazna.ru/gisgmp/xsd/services/import-payments/2.6.0">
+    <ns6:ExportChargesResponse hasMore="false" Id="I_77a30bf6-0977-d29f-02f6-99299cbb2eb6" RqId="I_0063c275-8ea0-4811-b892-83653b7809b8" recipientIdentifier="3590b7" timestamp="2025-02-25T09:58:17.009+03:00">
+        <ns6:ChargeInfo amountToPay="75000" acknowledgmentStatus="3" supplierBillID="18810550250115562348" chargeOffense="1" billDate="2025-01-15T20:59:59+03:00" totalAmount="75000" purpose="Оплата штрафа по постановлению 18810550250115562348 от 15.01.2025" kbk="18811601121010001140" oktmo="46755000">
+            <ns5:Payee name="УФК по Московской области (Управление Госавтоинспекции ГУ МВД России по Московской области)" inn="7703037039" kpp="770245001">
+                <ns4:OrgAccount accountNumber="03100643000000014800">
+                    <ns4:Bank name="ГУ БАНКА РОССИИ ПО ЦФО//УФК ПО МОСКОВСКОЙ ОБЛАСТИ г. Москва" bik="004525987" correspondentBankAccount="40102810845370000004"/>
+                </ns4:OrgAccount>
+            </ns5:Payee>
+            <ns3:Payer payerName="-" payerIdentifier="1240000000009970256252"/>
+            <ns3:BudgetIndex status="24" paytReason="0" taxPeriod="0" taxDocNumber="0" taxDocDate="0"/>
+            <ns3:AdditionalOffense offenseDate="2025-01-07T11:35:12+03:00" offensePlace="А/Д «М5 «УРАЛ»-КОЛОМНА-М5 «УРАЛ», 102КМ+225М, Н.П. РАДУЖНЫЙ, В КОЛОМНУ, МОСКОВСКАЯ ОБЛ." legalAct="12.09.2 - Превышение скорости движения ТС от 20 до 40 км/ч" digitalLink="0" departmentName="ЦАФАП Госавтоинспекции ГУ МВД России по Московской области"/>
+            <ns4:DiscountSize>
+                <ns4:Value>25</ns4:Value>
+                <ns4:Expiry>2025-02-14</ns4:Expiry>
+            </ns4:DiscountSize>
+            <ns4:AdditionalData>
+                <ns4:Name>offenseCoordinates</ns4:Name>
+                <ns4:Value>55.140220,38.714420</ns4:Value>
+            </ns4:AdditionalData>
+            <ns4:AdditionalData>
+                <ns4:Name>DepartmentCode</ns4:Name>
+                <ns4:Value>1146511</ns4:Value>
+            </ns4:AdditionalData>
+            <ns4:ChangeStatusInfo>
+                <ns4:Meaning>1</ns4:Meaning>
+            </ns4:ChangeStatusInfo>
+        </ns6:ChargeInfo>
+    </ns6:ExportChargesResponse>
+</ns2:PbResponseExportCharges>
