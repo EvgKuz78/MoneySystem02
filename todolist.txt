@@ -1,8 +1,8 @@
 My deal
 
-- sprint 03 -> 05/03
-- sprint 04 -> 10/03
-- sprint 05 -> 17/03
+- sprint 03 -> 05/03 (2 days)
+- sprint 04 -> 10/03 (5 days)
+- sprint 05 -> 17/03 (7 days)
 
 
 - 03 - finished - 17/02
